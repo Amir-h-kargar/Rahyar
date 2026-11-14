@@ -1,0 +1,50 @@
+{
+  "name": "رهیار — یاور مسیر",
+  "short_name": "رهیار",
+  "description": "سیستم اجرای زندگی؛ پیشنهاد «الان»، پرتفوی زندگی و مشاور خصوصی برای تصمیم و اجرا.",
+  "lang": "fa",
+  "dir": "rtl",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#07090f",
+  "theme_color": "#07090f",
+  "categories": ["productivity", "lifestyle"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "پیشنهاد الان",
+      "short_name": "الان",
+      "url": "./#now",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "مرور پایان روز",
+      "short_name": "مرور",
+      "url": "./#review",
+      "icons": [{ "src": "./icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
